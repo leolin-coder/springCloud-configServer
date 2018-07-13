@@ -1,0 +1,14 @@
+8300 配置中心入口
+     刷新方式：http://127.0.0.1:8300/actuator/bus-refresh
+     服务器端刷新后，会通知消息总线，bus，对客户端进行从新加载
+
+8200 zuul-server  路由中心
+
+8080 eureka  服务注册中心
+
+8100 admin server 控制中心
+
+
+
+客户端包含内容：
+配置中心客户端， eureka-client  admin-client openfeign netflix-hystrix dashboard actuator
